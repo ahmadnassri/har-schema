@@ -1,10 +1,11 @@
 {
+  "id": "cache.json#",
   "properties": {
     "beforeRequest": {
-      "$ref": "#cacheEntry"
+      "$ref": "cacheEntry.json#"
     },
     "afterRequest": {
-      "$ref": "#cacheEntry"
+      "$ref": "cacheEntry.json#"
     },
     "comment": {
       "type": "string"

@@ -1,4 +1,5 @@
 {
+  "id": "timings.json#",
   "required": [
     "send",
     "wait",

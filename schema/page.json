@@ -1,4 +1,5 @@
 {
+  "id": "page.json#",
   "type": "object",
   "optional": true,
   "required": [
@@ -21,7 +22,7 @@
       "type": "string"
     },
     "pageTimings": {
-      "$ref": "#pageTimings"
+      "$ref": "pageTimings.json#"
     },
     "comment": {
       "type": "string"

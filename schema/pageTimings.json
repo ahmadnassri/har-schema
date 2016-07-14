@@ -1,4 +1,5 @@
 {
+  "id": "pageTimings.json#",
   "type": "object",
   "properties": {
     "onContentLoad": {

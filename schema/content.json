@@ -1,4 +1,5 @@
 {
+  "id": "content.json#",
   "type": "object",
   "required": [
     "size",

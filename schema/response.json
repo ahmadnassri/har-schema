@@ -1,4 +1,5 @@
 {
+  "id": "response.json#",
   "type": "object",
   "required": [
     "status",
@@ -24,17 +25,17 @@
     "cookies": {
       "type": "array",
       "items": {
-        "$ref": "#cookie"
+        "$ref": "cookie.json#"
       }
     },
     "headers": {
       "type": "array",
       "items": {
-        "$ref": "#record"
+        "$ref": "record.json#"
       }
     },
     "content": {
-      "$ref": "#content"
+      "$ref": "content.json#"
     },
     "redirectURL": {
       "type": "string"

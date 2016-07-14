@@ -1,4 +1,5 @@
 {
+  "id": "record.json#",
   "type": "object",
   "required": [
     "name",

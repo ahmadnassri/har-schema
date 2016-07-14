@@ -1,4 +1,5 @@
 {
+  "id": "entry.json#",
   "type": "object",
   "optional": true,
   "required": [
@@ -23,16 +24,16 @@
       "min": 0
     },
     "request": {
-      "$ref": "#request"
+      "$ref": "request.json#"
     },
     "response": {
-      "$ref": "#response"
+      "$ref": "response.json#"
     },
     "cache": {
-      "$ref": "#cache"
+      "$ref": "cache.json#"
     },
     "timings": {
-      "$ref": "#timings"
+      "$ref": "timings.json#"
     },
     "serverIPAddress": {
       "type": "string",

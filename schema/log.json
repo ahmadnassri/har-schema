@@ -1,4 +1,5 @@
 {
+  "id": "log.json#",
   "type": "object",
   "required": [
     "version",
@@ -10,21 +11,21 @@
       "type": "string"
     },
     "creator": {
-      "$ref": "#creator"
+      "$ref": "creator.json#"
     },
     "browser": {
-      "$ref": "#creator"
+      "$ref": "creator.json#"
     },
     "pages": {
       "type": "array",
       "items": {
-        "$ref": "#page"
+        "$ref": "page.json#"
       }
     },
     "entries": {
       "type": "array",
       "items": {
-        "$ref": "#entry"
+        "$ref": "entry.json#"
       }
     },
     "comment": {

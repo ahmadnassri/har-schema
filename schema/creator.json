@@ -1,4 +1,5 @@
 {
+  "id": "creator.json#",
   "type": "object",
   "required": [
     "name",

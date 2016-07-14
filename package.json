@@ -1,0 +1,34 @@
+{
+  "name": "har-schema",
+  "version": "0.0.1",
+  "description": "JSON Schema for HTTP Archive (HAR)",
+  "main": "schemas/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epoberezkin/har-schema.git"
+  },
+  "keywords": [
+    "har",
+    "http",
+    "archive",
+    "JSON",
+    "schema",
+    "JSON-schema"
+  ],
+  "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/epoberezkin/har-schema/issues"
+  },
+  "homepage": "https://github.com/epoberezkin/har-schema#readme",
+  "devDependencies": {
+    "ajv": "^4.1.7",
+    "mocha": "^2.5.3"
+  }
+}

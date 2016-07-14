@@ -1,4 +1,5 @@
 {
+  "id": "request.json#",
   "type": "object",
   "required": [
     "method",
@@ -24,23 +25,23 @@
     "cookies": {
       "type": "array",
       "items": {
-        "$ref": "#cookie"
+        "$ref": "cookie.json#"
       }
     },
     "headers": {
       "type": "array",
       "items": {
-        "$ref": "#record"
+        "$ref": "record.json#"
       }
     },
     "queryString": {
       "type": "array",
       "items": {
-        "$ref": "#record"
+        "$ref": "record.json#"
       }
     },
     "postData": {
-      "$ref": "#postData"
+      "$ref": "postData.json#"
     },
     "headersSize": {
       "type": "integer"
