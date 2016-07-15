@@ -1,8 +1,8 @@
 {
   "name": "har-schema",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "JSON Schema for HTTP Archive (HAR)",
-  "main": "schemas/index.js",
+  "main": "schema/index.js",
   "directories": {
     "test": "test"
   },
