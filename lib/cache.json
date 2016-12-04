@@ -2,10 +2,16 @@
   "id": "cache.json#",
   "properties": {
     "beforeRequest": {
-      "$ref": "beforeRequest.json#"
+      "oneOf": [
+        { "type": "null" },
+        { "$ref": "beforeRequest.json#" }
+      ]
     },
     "afterRequest": {
-      "$ref": "afterRequest.json#"
+      "oneOf": [
+        { "type": "null" },
+        { "$ref": "afterRequest.json#" }
+      ]
     },
     "comment": {
       "type": "string"
