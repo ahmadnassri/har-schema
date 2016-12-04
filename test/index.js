@@ -10,6 +10,6 @@ tap.test('har-schema', (assert) => {
 
   assert.plan(keys.length * 2)
 
-  keys.forEach((key) => assert.doesNotThrow(ajv.addSchema(schemas[key])))
+  keys.forEach((key) => assert.doesNotThrow(() => ajv.addSchema(schemas[key])))
   keys.forEach((key) => assert.type(ajv.compile(schemas[key]), 'function'))
 })
