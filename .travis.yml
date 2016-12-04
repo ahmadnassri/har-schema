@@ -2,4 +2,28 @@ language: node_js
 
 node_js:
  - 4
- - 5
+ - 6
+ - 7
+
+env:
+  - BABEL_ENV=test
+
+matrix:
+  fast_finish: true
+
+cache:
+  directories:
+    - node_modules
+
+before_script:
+  - npm prune
+
+after_success:
+  - npm run coverage
+  - npm run codeclimate
+  - npm run semantic-release
+
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
+    - /^greenkeeper\/.+/
