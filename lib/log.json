@@ -14,7 +14,7 @@
       "$ref": "creator.json#"
     },
     "browser": {
-      "$ref": "creator.json#"
+      "$ref": "browser.json#"
     },
     "pages": {
       "type": "array",

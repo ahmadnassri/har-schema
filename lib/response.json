@@ -31,7 +31,7 @@
     "headers": {
       "type": "array",
       "items": {
-        "$ref": "record.json#"
+        "$ref": "header.json#"
       }
     },
     "content": {

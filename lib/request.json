@@ -31,13 +31,13 @@
     "headers": {
       "type": "array",
       "items": {
-        "$ref": "record.json#"
+        "$ref": "header.json#"
       }
     },
     "queryString": {
       "type": "array",
       "items": {
-        "$ref": "record.json#"
+        "$ref": "query.json#"
       }
     },
     "postData": {
