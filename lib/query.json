@@ -1,5 +1,5 @@
 {
-  "id": "query.json#",
+  "$id": "query.json#",
   "type": "object",
   "required": [
     "name",

@@ -1,5 +1,5 @@
 {
-  "id": "afterRequest.json#",
+  "$id": "afterRequest.json#",
   "type": "object",
   "optional": true,
   "required": [

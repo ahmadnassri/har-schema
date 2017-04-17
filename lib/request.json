@@ -1,5 +1,5 @@
 {
-  "id": "request.json#",
+  "$id": "request.json#",
   "type": "object",
   "required": [
     "method",

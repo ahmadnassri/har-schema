@@ -1,5 +1,5 @@
 {
-  "id": "cache.json#",
+  "$id": "cache.json#",
   "properties": {
     "beforeRequest": {
       "oneOf": [

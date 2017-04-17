@@ -1,5 +1,5 @@
 {
-  "id": "content.json#",
+  "$id": "content.json#",
   "type": "object",
   "required": [
     "size",

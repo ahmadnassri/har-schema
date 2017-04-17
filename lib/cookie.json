@@ -1,5 +1,5 @@
 {
-  "id": "cookie.json#",
+  "$id": "cookie.json#",
   "type": "object",
   "required": [
     "name",

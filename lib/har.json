@@ -1,5 +1,5 @@
 {
-  "id": "har.json#",
+  "$id": "har.json#",
   "type": "object",
   "required": [
     "log"

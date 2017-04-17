@@ -1,5 +1,5 @@
 {
-  "id": "timings.json#",
+  "$id": "timings.json#",
   "required": [
     "send",
     "wait",

@@ -1,5 +1,5 @@
 {
-  "id": "log.json#",
+  "$id": "log.json#",
   "type": "object",
   "required": [
     "version",

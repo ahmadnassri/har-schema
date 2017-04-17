@@ -1,5 +1,5 @@
 {
-  "id": "response.json#",
+  "$id": "response.json#",
   "type": "object",
   "required": [
     "status",

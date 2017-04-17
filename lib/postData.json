@@ -1,5 +1,5 @@
 {
-  "id": "postData.json#",
+  "$id": "postData.json#",
   "type": "object",
   "optional": true,
   "required": [

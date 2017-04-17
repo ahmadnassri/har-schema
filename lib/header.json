@@ -1,5 +1,5 @@
 {
-  "id": "header.json#",
+  "$id": "header.json#",
   "type": "object",
   "required": [
     "name",

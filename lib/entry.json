@@ -1,5 +1,5 @@
 {
-  "id": "entry.json#",
+  "$id": "entry.json#",
   "type": "object",
   "optional": true,
   "required": [

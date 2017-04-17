@@ -1,5 +1,5 @@
 {
-  "id": "creator.json#",
+  "$id": "creator.json#",
   "type": "object",
   "required": [
     "name",

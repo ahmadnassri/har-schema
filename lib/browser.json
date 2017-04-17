@@ -1,5 +1,5 @@
 {
-  "id": "browser.json#",
+  "$id": "browser.json#",
   "type": "object",
   "required": [
     "name",
