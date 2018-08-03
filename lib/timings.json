@@ -1,6 +1,7 @@
 {
   "$id": "timings.json#",
   "$schema": "http://json-schema.org/draft-06/schema#",
+  "type": "object",
   "required": [
     "send",
     "wait",
@@ -9,31 +10,31 @@
   "properties": {
     "dns": {
       "type": "number",
-      "min": -1
+      "minimum": -1
     },
     "connect": {
       "type": "number",
-      "min": -1
+      "minimum": -1
     },
     "blocked": {
       "type": "number",
-      "min": -1
+      "minimum": -1
     },
     "send": {
       "type": "number",
-      "min": -1
+      "minimum": -1
     },
     "wait": {
       "type": "number",
-      "min": -1
+      "minimum": -1
     },
     "receive": {
       "type": "number",
-      "min": -1
+      "minimum": -1
     },
     "ssl": {
       "type": "number",
-      "min": -1
+      "minimum": -1
     },
     "comment": {
       "type": "string"
