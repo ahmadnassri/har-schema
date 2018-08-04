@@ -1,22 +1,22 @@
 {
-  "$id": "postData.json#",
+  "$id": "param.json#",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
   "required": [
-    "mimeType"
+    "name"
   ],
   "properties": {
-    "mimeType": {
+    "name": {
       "type": "string"
     },
-    "text": {
+    "value": {
       "type": "string"
     },
-    "params": {
-      "type": "array",
-      "items": {
-        "$ref": "param.json#"
-      }
+    "fileName": {
+      "type": "string"
+    },
+    "contentType": {
+      "type": "string"
     },
     "comment": {
       "type": "string"
