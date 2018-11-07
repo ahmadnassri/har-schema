@@ -2,7 +2,6 @@
   "$id": "page.json#",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
-  "optional": true,
   "required": [
     "startedDateTime",
     "id",
@@ -16,8 +15,7 @@
       "pattern": "^(\\d{4})(-)?(\\d\\d)(-)?(\\d\\d)(T)?(\\d\\d)(:)?(\\d\\d)(:)?(\\d\\d)(\\.\\d+)?(Z|([+-])(\\d\\d)(:)?(\\d\\d))"
     },
     "id": {
-      "type": "string",
-      "unique": true
+      "type": "string"
     },
     "title": {
       "type": "string"

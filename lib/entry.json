@@ -2,7 +2,6 @@
   "$id": "entry.json#",
   "$schema": "http://json-schema.org/draft-06/schema#",
   "type": "object",
-  "optional": true,
   "required": [
     "startedDateTime",
     "time",
@@ -22,7 +21,7 @@
     },
     "time": {
       "type": "number",
-      "min": 0
+      "minimum": 0
     },
     "request": {
       "$ref": "request.json#"
@@ -37,10 +36,9 @@
       "$ref": "timings.json#"
     },
     "serverIPAddress": {
-      "type": "string",
       "oneOf": [
-        { "format": "ipv4" },
-        { "format": "ipv6" }
+        { "type": "string", "format": "ipv4" },
+        { "type": "string", "format": "ipv6" }
       ]
     },
     "connection": {
