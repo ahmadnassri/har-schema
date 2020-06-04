@@ -1,4 +1,5 @@
 # HAR Schema [![version][npm-version]][npm-url] [![License][npm-license]][license-url]
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fahmadnassri%2Fhar-schema.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fahmadnassri%2Fhar-schema?ref=badge_shield)
 
 > JSON Schema for HTTP Archive ([HAR][spec]).
 
@@ -47,3 +48,7 @@ Compatible with any [JSON Schema validation tool][validator].
 
 [spec]: https://github.com/ahmadnassri/har-spec/blob/master/versions/1.2.md
 [validator]: https://github.com/ahmadnassri/har-validator
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fahmadnassri%2Fhar-schema.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fahmadnassri%2Fhar-schema?ref=badge_large)
